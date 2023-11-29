@@ -1,0 +1,1 @@
+var host = "http://frontendkel2pagia.test";
