@@ -4,13 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="https://kit.fontawesome.com/664bfabc20.js" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link href="https://cdn.datatables.net/v/dt/dt-1.13.7/b-2.4.2/sl-1.7.0/datatables.css" rel="stylesheet" />
+  <script src="https://cdn.datatables.net/v/dt/dt-1.13.7/b-2.4.2/sl-1.7.0/datatables.js"></script>
+  <script src="env.js"></script>
     <title>Document</title>
 </head>
 
 <body>
-    
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a href="#" class="navbar-brand d-flex align-items-center">
             <strong>VIGGO</strong>
@@ -132,6 +139,7 @@
                                 <th scope="col">Gambar</th>
                                 <th scope="col">Harga</th>
                                 <th scope="col">Spesifikasi Lengkap</th>
+                                <th scope="col">Aksi</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -143,7 +151,16 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
+                                <td>
+                                </td>
+                                <td>
+                                    <button class="btn btn-success btn-md">
+                                        <i class="fa fa-edit"></i>
+                                    </button>
+                                    <button class="btn btn-danger btn-md">
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </td>
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
@@ -154,6 +171,14 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
+                                <td>
+                                    <button class="btn btn-success btn-md">
+                                        <i class="fa fa-edit"></i>
+                                    </button>
+                                    <button class="btn btn-danger btn-md">
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </td>
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
@@ -164,6 +189,14 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
+                                <td>
+                                    <button class="btn btn-success btn-md">
+                                        <i class="fa fa-edit"></i>
+                                    </button>
+                                    <button class="btn btn-danger btn-md">
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </td>
                             </tr>
                             <tr>
                                 <th scope="row">4</th>
@@ -174,6 +207,14 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
+                                <td>
+                                    <button class="btn btn-success btn-md">
+                                        <i class="fa fa-edit"></i>
+                                    </button>
+                                    <button class="btn btn-danger btn-md">
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </td>
                             </tr>
                             <tr>
                                 <th scope="row">5</th>
@@ -184,6 +225,14 @@
                                 <td></td>
                                 <td></td>
                                 <td></td>
+                                <td>
+                                    <button class="btn btn-success btn-md">
+                                        <i class="fa fa-edit"></i>
+                                    </button>
+                                    <button class="btn btn-danger btn-md">
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -193,18 +242,8 @@
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="/docs/4.6/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-    <script src="/docs/4.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-        crossorigin="anonymous"></script>
+    <script src="asset/js/delete.js"></script>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
-    <script src="dashboard.js"></script>
 
 
 </body>
